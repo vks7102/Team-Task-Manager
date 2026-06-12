@@ -18,8 +18,8 @@ export default function Login() {
     setLoading(true);
     setError('');
     try {
-      await login(formData);
-      navigate('/dashboard');
+      const res = await login(formData);
+      navigate(res.user?.role === 'Admin' ? '/admin' : '/dashboard');
     } catch (err) {
       setError(err.response?.data?.message || 'Login failed');
     } finally {
