@@ -43,6 +43,13 @@ app.use('/api/tasks', taskRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/admin', adminRoutes);
 
+// Also mount at root for deployments missing /api prefix
+app.use('/auth', authRoutes);
+app.use('/projects', projectRoutes);
+app.use('/tasks', taskRoutes);
+app.use('/dashboard', dashboardRoutes);
+app.use('/admin', adminRoutes);
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ message: 'Server is running' });
