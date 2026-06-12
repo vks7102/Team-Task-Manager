@@ -139,13 +139,6 @@ VITE_API_URL=http://localhost:5000/api
 3. Add environment variables in Railway dashboard
 4. Deploy automatically on push
 
-### Deploy Frontend to Vercel
-
-1. Create Vercel account at https://vercel.com
-2. Connect GitHub repository
-3. Set `VITE_API_URL` environment variable to your Railway backend URL
-4. Deploy automatically on push
-
 ## Database Design
 
 ### Users Collection
@@ -245,25 +238,9 @@ team-task-manager/
 └── README.md
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a pull request
-
-## License
-
-MIT License - feel free to use this project for learning or commercial purposes
-
 ## Support
 
 For issues or questions, please open an issue on GitHub or contact the maintainer.
-
-## Demo Video
-
-[Add your demo video link here]
 
 ---
 
