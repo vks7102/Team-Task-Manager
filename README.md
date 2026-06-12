@@ -19,6 +19,16 @@ A full-stack collaborative task management application built with React, Node.js
 - Real-time activity tracking
 - Responsive design for mobile and desktop
 
+
+## Login Details:
+For admin:
+email - admin@gmail.com
+pass - 123456
+
+for member:
+email - abhishek@gmail.com
+pass - 123456
+
 ## Tech Stack
 
 ### Frontend
